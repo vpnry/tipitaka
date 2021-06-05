@@ -35,6 +35,6 @@ _TXT Format_
 See:
 
 ```
-https://github.com/vpnry/tipitaka/docs/misc
+https://github.com/vpnry/tipitaka/docs/misc/dev
 ```
 
