@@ -15,7 +15,7 @@ To avoid mysterious bugs, even these tools have already been installed before on
 
 ```
 sudo apt update
-sudo apt install -y sqlite3 git nodejs wget  -y
+sudo apt install -y sqlite3 git nodejs wget
 
 ```
 
