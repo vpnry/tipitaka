@@ -70,7 +70,7 @@ If things go smooth, it will export many .sql files in **sql_files_dir**.
 + If you want to auto build the db in new script, run:
 
 ```
-bash db_extracter.sh
+bash autobuild_db_back.sh
 
 ```
 
