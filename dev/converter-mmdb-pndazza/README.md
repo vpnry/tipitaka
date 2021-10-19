@@ -43,7 +43,7 @@ git clone https://github.com/pnfo/pali-script-converter.git
 
 ```
 
-We now should have the directory like this:
+We now should have the directory tree like this:
 
 ```
 .
