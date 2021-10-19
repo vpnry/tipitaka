@@ -1,10 +1,8 @@
 #!/usr/bin/bash
 
 # -*- coding: utf-8 -*-
-# _ https://tipitaka.eu.org _
 # Ref https://stackoverflow.com/a/37296788
 # Ref https://stackoverflow.com/a/20014210
-
 
 # ***********************
 # INSTALL DEPENDENCES &

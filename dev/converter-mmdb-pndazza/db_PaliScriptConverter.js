@@ -1,8 +1,9 @@
 /**
  * Convert tipitaka_pali.db in Myanamar Pali to Latin Roman Pali
  * http://play.google.com/store/apps/details?id=mm.pndaza.tipitakapali
- * @uPNRY 2021 - https://vpnry.github.io/tipitaka/dev/mpali/db_PaliScriptConverter.js
+ * @uPNRY 2021 - https://vpnry.github.io/tipitaka/dev/converter-mmdb-pndazza/db_PaliScriptConverter.js
  */
+ 
 const fs = require("fs");
 const path = require("path");
 const readline = require("readline");
@@ -24,9 +25,9 @@ const FROMSCRIPT = CONVERTER.Script.MY;
 let toScript = CONVERTER.Script.RO;
 
 // ---------------------------------
-let SQLFILES = lsFilesInDir("sql_files_dir");
-SQLFILES = SQLFILES.filter((p) => !p.endsWith(shellMarkStr));
-runConverter(SQLFILES.shift(), toScript);
+    let SQLFILES = lsFilesInDir("sql_files_dir");
+    SQLFILES = SQLFILES.filter((p) => !p.endsWith(shellMarkStr));
+    runConverter(SQLFILES.shift(), toScript);
 // ---------------------------------
 
 function runConverter(filePath, toScript) {

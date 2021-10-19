@@ -1,15 +1,14 @@
 #!/usr/bin/bash
 
 # -*- coding: utf-8 -*-
-# _ https://tipitaka.eu.org _
 # Ref https://stackoverflow.com/a/37296788
 # Ref https://stackoverflow.com/a/20014210
 
-
-# ------- USER INPUT ENDS ----------
+# ------- USER INPUT STARTS ----------
 NEWPALI_SCRIPT_DB=tipitaka_ro.db
 CONVERTED_MARK=_cvted.sql
 OUT=sql_files_dir
+# ------- USER INPUT ENDS ----------
 
 echo -e "Output DB name: $NEWPALI_SCRIPT_DB"
 echo -e "SQL files in: $OUT"
